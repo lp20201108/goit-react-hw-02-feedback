@@ -1,0 +1,32 @@
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+ background-color: rgb(121, 199, 235);
+ width: 500px;
+ margin: 0 auto;
+ margin-top: 30px;
+}
+
+
+.btn {
+    margin: 5px;
+    border-radius: 5%;
+    border: none;
+    outline: none;
+    background-color: beige;
+    min-width: 80px;
+    height: 30px;
+    font-weight: bold;
+    box-shadow: 5px 5px 15px 5px #5ff2ff;
+    }
+
+    .feedbackResults{
+        color: orangered;
+        font-weight: bold;
+
+    }
