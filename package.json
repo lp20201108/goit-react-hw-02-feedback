@@ -2,7 +2,7 @@
   "name": "react-initial",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lp20201108.github.io/goit-react-hw-01-components",
+  "homepage": "https://lp20201108.github.io/ghpages-deployment",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",

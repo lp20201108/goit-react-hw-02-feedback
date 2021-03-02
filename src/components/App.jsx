@@ -11,7 +11,7 @@ class App extends Component {
     bad: 0,
   };
 
-  onLeaveFeedback = (event) => {
+  leaveFeedback = (event) => {
     this.setState((prevState) => ({
       [event.target.textContent]: prevState[event.target.textContent] + 1,
     }));
@@ -27,7 +27,7 @@ class App extends Component {
     const result = parseInt(
       ((good + neutral) * 100) / this.countTotalFeedback()
     );
-    return `${result}%`;
+    return ` ${result}%`;
   };
 
   render() {
@@ -35,10 +35,11 @@ class App extends Component {
     const options = Object.keys(this.state);
     return (
       <div className={styles.container}>
-        <Section title="Please leave your feedback">
+        <h2>Please leave your feedback</h2>
+        <Section className={styles.feedbackSection}>
           <FeedbackOptions
             options={options}
-            onLeaveFeedback={this.onLeaveFeedback}
+            onLeaveFeedback={this.leaveFeedback}
           ></FeedbackOptions>
         </Section>
         <Section title="Statistics">

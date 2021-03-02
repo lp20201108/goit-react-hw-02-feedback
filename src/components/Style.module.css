@@ -3,30 +3,54 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  border-radius: 14px;
- background-color: rgb(121, 199, 235);
- width: 500px;
- margin: 0 auto;
- margin-top: 30px;
+width: 500px;
+ margin-left: 30px;
+  margin-top: 30px;
+  background-color: rgb(121, 199, 235);
+
 }
 
 
-.btn {
-    margin: 5px;
-    border-radius: 5%;
-    border: none;
-    outline: none;
-    background-color: beige;
-    min-width: 80px;
-    height: 30px;
-    font-weight: bold;
-    box-shadow: 5px 5px 15px 5px #5ff2ff;
-    }
 
-    .feedbackResults{
+.feedbackSection{
+display: flex;
+}
+
+    
+   .feedbackResults{
         color: orangered;
         font-weight: bold;
 
     }
+
+    .btn {
+  background-image: linear-gradient(
+    to right,
+    #1f1c2c 0%,
+    #928dab 51%,
+    #1f1c2c 100%
+  );
+}
+.btn {
+  margin: 10px;
+  padding: 5px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  outline: none;
+border: none;
+
+  }
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+   border: none;
+}
