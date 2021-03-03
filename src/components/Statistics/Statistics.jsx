@@ -5,7 +5,7 @@ import styles from '../Style.module.css'
 
 const Statistics = ({good, neutral, bad, total, positivePercentage}) => {
     return (
-        total > 0 ?
+        total?
         <ul>
             <li>Good: { good}</li>
             <li>Neutral: {neutral}</li>
